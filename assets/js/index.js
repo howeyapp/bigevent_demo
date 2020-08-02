@@ -19,7 +19,7 @@ $(function(){
     })
 })
 
-//获取用户信息
+//获取用户信息(此方法必须是全局的,后面iframe要用)
 function getUserInfo() {
     $.ajax({
         method:'GET',
